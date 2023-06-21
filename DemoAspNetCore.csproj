@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>aspnet-DemoAspNetCore-5de7c339-02b6-4cc0-ac3d-b542b2578f80</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="7.0.7" NoWarn="NU1605" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.OpenIdConnect" Version="7.0.7" NoWarn="NU1605" />
+    <PackageReference Include="Microsoft.Identity.Web" Version="2.12.4" />
+    <PackageReference Include="Microsoft.Identity.Web.MicrosoftGraph" Version="2.12.4" />
+    <PackageReference Include="Microsoft.Identity.Web.UI" Version="2.12.4" />
+  </ItemGroup>
+
+</Project>
